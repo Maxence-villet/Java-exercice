@@ -3,6 +3,7 @@ import exerciceFour.MainVehicule;
 import exerciceFour.Moto;
 import exerciceFour.Voiture;
 import exerciceOne.MainCalcul;
+import exerciceSeven.MainAppareil;
 import exerciceSix.Etudiant;
 import exerciceSix.Universite;
 import exerciceThree.Cercle;
@@ -91,6 +92,9 @@ public class Main {
         //output
         universite.displayEtudiant();
 
+        // exercice 7  
+        System.out.println("\n Exercice 7 : \n ");
+        MainAppareil mainAppareil = new MainAppareil();
 
     }
 }
