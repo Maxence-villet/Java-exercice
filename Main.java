@@ -8,6 +8,7 @@ import exerciceOne.MainCalcul;
 import exerciceSeven.MainAppareil;
 import exerciceSix.Etudiant;
 import exerciceSix.Universite;
+import exerciceTen.MainBibliotheque;
 import exerciceThree.Cercle;
 import exerciceThree.MainForme;
 import exerciceThree.Rectangle;
@@ -105,5 +106,9 @@ public class Main {
         // exercice 9
         System.out.println("\n Exercice 9 : \n ");
         MainZoo mainZoo = new MainZoo();
+
+        // exercice 10
+        System.out.println("\n Exercice 10 : \n ");
+        MainBibliotheque mainBibliotheque = new MainBibliotheque();
     }
 }
