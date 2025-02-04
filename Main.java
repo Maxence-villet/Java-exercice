@@ -1,3 +1,6 @@
+import exerciceFour.MainVehicule;
+import exerciceFour.Moto;
+import exerciceFour.Voiture;
 import exerciceOne.MainCalcul;
 import exerciceThree.Cercle;
 import exerciceThree.MainForme;
@@ -45,5 +48,23 @@ public class Main {
         //output
         System.out.println("\n Exercice 3 : \n ");
         mainForme.getFormesSurface();
+
+        // Exercice 4
+
+        MainVehicule mainVehicule = new MainVehicule();
+        
+        // add forme
+        for (int i = 0; i < 1; i++) {
+            Moto moto = new Moto();
+            Voiture voiture = new Voiture();
+
+            mainVehicule.addVehicule(voiture);
+            mainVehicule.addVehicule(moto);
+        }
+        
+        
+        //output
+        System.out.println("\n Exercice 4 : \n ");
+        mainVehicule.getVehiculesActions();
     }
 }
