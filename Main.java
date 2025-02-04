@@ -1,3 +1,4 @@
+import exerciceFive.MainMaison;
 import exerciceFour.MainVehicule;
 import exerciceFour.Moto;
 import exerciceFour.Voiture;
@@ -66,5 +67,10 @@ public class Main {
         //output
         System.out.println("\n Exercice 4 : \n ");
         mainVehicule.getVehiculesActions();
+
+        // Exercice 5
+        System.out.println("\n Exercice 5 : \n ");
+        MainMaison mainMaison = new MainMaison();
+
     }
 }
