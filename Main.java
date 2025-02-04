@@ -1,3 +1,4 @@
+import exerciceEight.MainFerme;
 import exerciceFive.MainMaison;
 import exerciceFour.MainVehicule;
 import exerciceFour.Moto;
@@ -96,5 +97,8 @@ public class Main {
         System.out.println("\n Exercice 7 : \n ");
         MainAppareil mainAppareil = new MainAppareil();
 
+        // exercice 8
+        System.out.println("\n Exercice 8 : \n ");
+        MainFerme mainFerme = new MainFerme();
     }
 }
