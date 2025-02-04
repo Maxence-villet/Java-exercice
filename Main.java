@@ -3,6 +3,8 @@ import exerciceFour.MainVehicule;
 import exerciceFour.Moto;
 import exerciceFour.Voiture;
 import exerciceOne.MainCalcul;
+import exerciceSix.Etudiant;
+import exerciceSix.Universite;
 import exerciceThree.Cercle;
 import exerciceThree.MainForme;
 import exerciceThree.Rectangle;
@@ -71,6 +73,24 @@ public class Main {
         // Exercice 5
         System.out.println("\n Exercice 5 : \n ");
         MainMaison mainMaison = new MainMaison();
+
+        // Exercice 6
+        System.out.println("\n Exercice 6 : \n ");
+        
+        Etudiant etudiant1 = new Etudiant("Turing", "Alan");
+        Etudiant etudiant2 = new Etudiant("Lovelace", "Ada");
+        Etudiant etudiant3 = new Etudiant("Boole", "Goerge");
+
+        Universite universite = new Universite();
+        universite.addEtudiant(etudiant1);
+        universite.addEtudiant(etudiant2);
+        universite.addEtudiant(etudiant3);
+        
+        universite.removeEtudiant(1); // Ada Lovelace
+
+        //output
+        universite.displayEtudiant();
+
 
     }
 }
