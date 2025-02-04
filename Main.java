@@ -3,6 +3,7 @@ import exerciceFive.MainMaison;
 import exerciceFour.MainVehicule;
 import exerciceFour.Moto;
 import exerciceFour.Voiture;
+import exerciceNine.MainZoo;
 import exerciceOne.MainCalcul;
 import exerciceSeven.MainAppareil;
 import exerciceSix.Etudiant;
@@ -100,5 +101,9 @@ public class Main {
         // exercice 8
         System.out.println("\n Exercice 8 : \n ");
         MainFerme mainFerme = new MainFerme();
+
+        // exercice 9
+        System.out.println("\n Exercice 9 : \n ");
+        MainZoo mainZoo = new MainZoo();
     }
 }
